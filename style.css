@@ -1,0 +1,87 @@
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{ 
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+section{ 
+    background-color: darkgray;
+    
+    border :1px solid black;
+    width: 30%;
+    display:inline-block ;
+    margin-left: 30px;
+    
+    
+    
+    
+    
+}
+
+h2{ display: block;
+    text-align: justify;
+    width: 20%;
+    float: right;
+    border-color: black;
+    margin-top: 0px;
+    padding: 4px;
+    border-width: 0px 0px 2px 2px;
+    border-style: solid;
+    white-space: pre-wrap;
+    
+}
+p{
+    
+    text-align: left;
+    padding: 4px;
+    display: inline-block;
+}
+ h2#chiken{
+    background-color: chartreuse;
+}
+h2#beef{
+    background-color: rgb(40, 216, 84);
+}
+ h2#sushi{
+    background-color: cornflowerblue;
+}
+
+  @media screen and (max-width: 991px) {
+    section#section1 {
+        margin: 2%;
+        width: 43%;
+    }
+    section#section2 {
+        margin: 2%;
+        width: 43%;
+    }
+    section#section3 {
+        margin: 2%;
+        width: 90.5%;
+    }
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+    section#section1 {
+        margin: 5%;
+        width: 90%;
+    }
+    section#section2 {
+        margin: 5%;
+        width: 90%;
+    }
+    section#section3 {
+        margin: 5%;
+        width: 90%;
+    }
+  }
